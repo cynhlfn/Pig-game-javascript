@@ -1,47 +1,46 @@
-# Pig game
+# 🐷 Pig Game
 
-**Pig game** is a simple two-player web game built with JavaScript, HTML, and CSS.
+## Description
 
-## How to Play
+Ceci est un mini-jeu de dés multijoueur réalisé dans le cadre d’une formation Udemy.
 
-- Each player rolls a dice by clicking the **Roll Dice** button.
-- The rolled number is added to the current score.
-- If a player rolls a **1**, their turn ends and the next player rolls.
-- Players can click **Hold** to add their current score to their total score.
-- The first player to reach **100 points** wins the game.
-- Click **New Game** to reset and start over.
+Le but du jeu est simple : être le premier joueur à atteindre 100 points.
 
-## Features
+La page présente :
+- Deux sections joueurs avec score total et score courant
+- Un dé affiché au centre de l’écran
+- Un bouton Roll dice pour lancer le dé
+- Un bouton Hold pour conserver les points du tour actuel
+- Un bouton New game pour recommencer la partie
+- Effets visuels pour indiquer le joueur actif et le gagnant
 
-- Random dice roll simulation.
-- Dynamic update of scores and current turn.
-- Player turn switching.
-- Game win detection and display.
-- Responsive user interface.
+Le jeu est entièrement contrôlé par JavaScript, avec une interface stylisée en HTML et CSS, utilisant flexbox, transitions et effets visuels modernes.
 
-## Live Demo
+#" Technologies utilisées
 
-Try the game online here: [pig game](https://cynhlfn.github.io/Pig_game_js/)
+- HTML5
+- CSS3 (Flexbox, transitions, blur, overlay)
+- JavaScript (ES6, DOM manipulation, event handling)
+- Google Fonts (Nunito)
+- Images de dés
 
-## Installation
+## Compétences développées
 
-1. Clone this repository:  
-   `git clone https://github.com/cynhlfn/guess_my_number_js.git`
+- Manipulation du DOM (querySelector, textContent, classList)
+- Gestion d’événements (addEventListener)
+- Logique conditionnelle pour les règles du jeu
+- Gestion de l’état du jeu (joueur actif, score courant, score total, joueur gagnant)
+- Mise à jour dynamique du contenu HTML
+- Styling CSS moderne : flexbox, overlay, transitions, blur effect
+- Création d’un mini-jeu interactif entièrement fonctionnel
+- Fonctionnalités du jeu
+- Lancer le dé et additionner les points au score courant
+- Bouton Hold pour transférer le score courant au score total
+- Détection du joueur gagnant et affichage visuel spécial
+- Changement visuel du joueur actif à chaque tour
+- Bouton New game pour réinitialiser la partie
+- Interface responsive et visuellement attrayante
 
-2. Open `index.html` in your web browser.
+## Autrice
 
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
----
-
-## Contact
-
-Feel free to reach out if you want to discuss the project 👉 or see more of my work.
-
-- Email: cyndiahalfoun@example.com
-- LinkedIn: [cyndia-halfoun](www.linkedin.com/in/cyndia-halfoun-813a952bb)
-- GitHub: [cynhlfn](https://github.com/cynhlfn)
+Cyndia HALFOUN
