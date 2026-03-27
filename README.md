@@ -6,6 +6,8 @@ Ceci est un mini-jeu de dés multijoueur réalisé dans le cadre d’une formati
 
 Le but du jeu est simple : être le premier joueur à atteindre 100 points.
 
+lien vers le jeux: https://cynhlfn.github.io/Pig-game-javascript/
+
 La page présente :
 - Deux sections joueurs avec score total et score courant
 - Un dé affiché au centre de l’écran
@@ -16,7 +18,7 @@ La page présente :
 
 Le jeu est entièrement contrôlé par JavaScript, avec une interface stylisée en HTML et CSS, utilisant flexbox, transitions et effets visuels modernes.
 
-#" Technologies utilisées
+## Technologies utilisées
 
 - HTML5
 - CSS3 (Flexbox, transitions, blur, overlay)
